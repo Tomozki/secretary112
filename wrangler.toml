@@ -1,0 +1,11 @@
+name = "secretary112"
+main = "worker.js"
+compatibility_date = "2024-05-29"
+workers_dev = true
+
+[vars]
+# Add any non-secret variables here (e.g., ENVIRONMENT = "production")
+TELEGRAM_TOKEN = "8788355069:AAGSXoxobXqLHdyC0jEgJIpFIt5qQI-KrIk"
+[[kv_namespaces]]
+binding = "MESSAGES_KV"
+id = "e65b2381396b41ae9cf33b7c0479e2d6"
